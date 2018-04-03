@@ -2,8 +2,6 @@
   font-size: 1em;
 }
 .row{
-  font-size: 2.5em; 
-  /*sería un 2.5 de tamaño relativo. */
   max-width: 1004px;
 }
 
