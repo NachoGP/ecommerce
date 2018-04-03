@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
-
+*{
+  /*El pading crece hacia dentro el margin hacia afuera no. */
+  box-sizing: border-box;
+}
 body{
   font-family: 'Titillium Web', sans-serif;
   font-size: 100%; 
@@ -36,3 +39,60 @@ h5{
 h6{
   font-size: 105%;
 }
+
+main .titulohome{
+  display: none;
+}
+.row{
+  max-width: 1004px;
+  margin: 0 auto;
+}
+/*INICIO HEADER*/
+header{
+  height: 120px;
+  padding: 40px 0;
+}
+header .logo img{
+  border-right: 1px solid #eee;
+}
+header nav ul li{ 
+/*  quiero que se dispongan en linea pero que conserver la pripiedad de ancho y largo.*/
+display: inline-block;
+  
+}
+
+header nav ul li a{
+  /*Para que todos los elementos sea clikables. el "a" se convierte en bloque y todo hace de botón*/
+  display: block;
+  /*ahora le doy tamaño a los botones*/
+  padding: 5px 30px 56px 30px;
+  text-align: center;
+  color: #646464;
+}
+header nav ul li a:hover{
+  border-bottom: 3px solid red;
+}
+
+header .carrito{
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  
+}
+header .logo, nav{
+  float: left;
+}
+header .carrito{
+  float: right;
+}
+/*FIN HEADER*/
+.hero{
+  height: 430px;
+  background-image: url(../images/chica.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+
+
