@@ -132,9 +132,9 @@ main .products h2{
 }
 main .products article{
   border:4px solid #eee;
-  width: 29%;
+  width: 33.33%;
   float: left;
-  margin-right: 0 1%;
+  margin: 1% 0.5%;
   position: relative;
 }
 main .products h4,p{
@@ -154,5 +154,22 @@ main .products .descuento{
   color: #fff;
   font-weight: 700;
   padding: 10px 20px;
+}
+/*INICIO BRANDS HOME*/
+
+main .brands{
+  margin: 40px auto;
+}
+
+main .brands h2{
+  display: none;
+}
+main .brands .brand{
+  float: left;
+  border: 4px solid #ebebeb;
+  margin: 0px 4.5% 0px 1%;
+}
+main .brands .brand:last-child{
+  margin-right: 0%;
 }
 
