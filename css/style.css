@@ -137,7 +137,7 @@ main .products article{
   margin: 1% 0.5%;
   position: relative;
 }
-main .products h4,p{
+main .products h4, main .products p{
   text-align: center;
 }
 main .products .precio{
@@ -172,4 +172,22 @@ main .brands .brand{
 main .brands .brand:last-child{
   margin-right: 0%;
 }
+
+/*FOOTER*/
+
+footer .footer_sup{
+  padding: 50px 0;
+}
+
+footer .footer_inf{
+  border-top: 1px solid #000;
+  padding: 20px 0;
+}
+footer a{
+  color: #646464;
+  font-weight: 700;
+
+}
+
+
 
