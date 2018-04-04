@@ -93,6 +93,7 @@ header .carrito:hover{
 
 header .carrito a:hover{
   color:#fff;
+  border: 0;
 }
 
 header .logo, nav{
